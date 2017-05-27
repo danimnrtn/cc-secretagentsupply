@@ -19,10 +19,16 @@ html {
 
 .first {
   background-color: black;
+  overflow: hidden;
+}
+
+
+.first .container {
   display: flex;
   justify-content: flex-start;
+  flex-direction: row;
   align-items: center;
-  overflow: hidden;
+  padding: .66rem 0rem;
 }
 
 .logo {
@@ -37,7 +43,6 @@ html {
 .title {
   text-transform: uppercase;
   font-weight: bold;
-  padding: .66rem 0rem;
   font-size: 1rem;
 }
 
@@ -70,15 +75,20 @@ html {
 
 .list {
   background-color: firebrick;
-  display: flex;
-}
-
-.list a {
-  color: white;
-  text-decoration: none;
   padding-top: .75rem;
   padding-bottom: .75rem;
-  margin: 0 auto;
+}
+
+.list .container {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row;
+  flex-wrap: wrap;
+}
+
+a {
+  color: white;
+  text-decoration: none;
 }
 
 /*GALLERY*/
