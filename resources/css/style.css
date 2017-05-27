@@ -1,0 +1,187 @@
+html {
+  font-family: "Helvetica";
+  font-size: 18px;
+  color: white;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+/*HEADER*/
+.header {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.first {
+  background-color: black;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+}
+
+.logo {
+  background-image: url("../logo.png");
+  height: 1.5rem;
+  background-repeat: none;
+  width: 100%;
+}
+
+.title {
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: .66rem 0rem;
+  font-size: 1rem;
+}
+
+.moto {
+  background-image: url("../moto.jpeg");
+  height: 25rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.feature {
+  width: 20rem;
+  margin-top: 9rem;
+  padding: 2rem 3rem;
+  background-color: black;
+}
+
+.feature h3 {
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.feature h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: .25rem;
+}
+
+.list {
+  background-color: firebrick;
+  display: flex;
+}
+
+.list a {
+  color: white;
+  text-decoration: none;
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  margin: 0 auto;
+}
+
+/*GALLERY*/
+.gallery {
+  margin: 3rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.gallery div {
+  display: flex;
+}
+
+.gallery p {
+  padding: .5rem 0rem;
+  margin: 0 auto;
+}
+
+.penimg {
+  background-image: url("../pen.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 9rem;
+  padding: 2rem 0rem;
+}
+
+.watchimg {
+  background-image: url("../watch.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 9rem;
+  padding: 2rem 0rem;
+}
+
+.glassesimg {
+  background-image: url("../glasses.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 9rem;
+  padding: 2rem 0rem;
+}
+
+.pen {
+  display: flex;
+  flex-flow: column;
+  width: 30%;
+  width: 100%;
+  align-items: center;
+  border: 4px solid black;
+}
+
+.watch {
+  display: flex;
+  flex-flow: column;
+  width: 30%;
+  width: 100%;
+  align-items: center;
+  border: 4px solid black;
+}
+
+.glasses {
+  display: flex;
+  flex-flow: column;
+  width: 30%;
+  width: 100%;
+  align-items: center;
+  border: 4px solid black;
+}
+
+.product {
+  background-color: black;
+  width: 100%;
+}
+
+/*INFO*/
+.info {
+  display: flex;
+  justify-content: center;
+}
+
+.info div {
+  width: 35%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+}
+
+.lh {
+  background-color: black;
+  padding: 1rem 2rem;
+}
+
+.info p {
+  color: black;
+  font-weight: normal;
+  padding: .5rem 2rem;
+  text-align: center;
+}
+
+/*FOOTER*/
+.footer {
+  background-color: black;
+  height: 5rem;
+  margin-top: 4rem;
+  display: flex;
+  align-items: center;
+}
