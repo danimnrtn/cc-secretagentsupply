@@ -227,6 +227,70 @@ a {
       display: none;
     }
 
-
-
   }
+
+  /*PHONE*/
+  @media only screen
+    and (max-width: 470px) {
+
+      .container {
+        width: 90%;
+      }
+
+      .header .container {
+        width: 100%;
+      }
+
+      .moto {
+        height: 15rem;
+      }
+
+      .feature {
+        width: 100%;
+        margin-top: 10rem;
+        padding: 1rem 2rem;
+      }
+
+      .feature h3 {
+        font-size: 0.77rem;
+      }
+
+      .feature h1 {
+        font-size: 1rem;
+      }
+
+      .gallery > div {
+        width: 100%;
+      }
+
+      .gallery .watch {
+        display: none;
+      }
+
+      .info {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+      }
+
+      .info div {
+        display: flex;
+        width: 100%;
+        align-items: center;
+      }
+
+      .lh {
+        display: flex;
+        justify-content: space-between;
+        background-color: black;
+        padding: 1rem 2rem;
+      }
+
+      .info p {
+        color: black;
+        font-weight: normal;
+        padding: .5rem 2rem;
+        text-align: center;
+      }
+
+    }
